@@ -22,7 +22,5 @@ if (NOT Python3_FOUND AND Python3_Development_FOUND)
     endif ()
 endif ()
 
-add_executable(test_boost_python main.cpp)
-
-target_link_libraries(test_boost_python ${Boost_LIBRARIES} ${Python3_LIBRARIES})
-target_include_directories(test_boost_python PRIVATE ${Python3_INCLUDE_DIRS})
+add_subdirectory(simple)
+add_subdirectory(pybind11)
