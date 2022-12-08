@@ -1,3 +1,0 @@
-[submodule "thrid_party/pybind11"]
-	path = thrid_party/pybind11
-	url = https://github.com/pybind/pybind11
